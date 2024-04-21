@@ -131,7 +131,7 @@ const scrollToTarget = () => {
         class="relative flex items-center pb-10 my-6"
       >
         <img
-          src="/blumenprint-logo-1.png"
+          src="/deiartistri-lounge-logo.png"
           class="w-[60px] h-[60px] drop-shadow"
         />
       </a>
