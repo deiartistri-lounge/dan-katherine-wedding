@@ -1,0 +1,14 @@
+runtime: nodejs18
+env: flex
+entrypoint: npm start
+service: "nuxt-frontend"
+runtime_config:
+  operating_system: ubuntu22
+
+automatic_scaling:
+  max_num_instances: 1
+
+handlers:
+  - url: /.*
+    script: auto
+    secure: always

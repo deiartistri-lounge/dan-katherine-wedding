@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* body {
+  font-family: "Montserrat", sans-serif;
+} */
+
+.passport-label {
+  @apply text-xl lg:text-2xl font-name text-[#000080];
+}
+
+.passport-data {
+  @apply text-[1.75rem] uppercase font-name2;
+}
