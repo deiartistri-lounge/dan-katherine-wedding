@@ -3,10 +3,10 @@ export default defineNuxtConfig({
   // target: "static",
   $production: {
     router: {
-      base: "/danrine-wedding.github.io/", //eg:- /crstnmac.github.io/
+      base: "/dan-katherine-wedding.github.io/", //eg:- /crstnmac.github.io/
     },
     app: {
-      baseURL: "/danrine-wedding.github.io/",
+      baseURL: "/dan-katherine-wedding.github.io/",
       buildAssetsDir: "assets",
     },
   },

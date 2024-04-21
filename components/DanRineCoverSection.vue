@@ -3,7 +3,7 @@ import { Howl, Howler } from "howler";
 import { useIntersectionObserver } from "@vueuse/core";
 
 const sound = new Howl({
-  src: ["/danrine-wedding.github.io/bg-music.mp3"],
+  src: ["/dan-katherine-wedding.github.io/bg-music.mp3"],
   volume: 0.5,
 });
 
