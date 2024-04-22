@@ -23,11 +23,11 @@ export default {
     },
     extend: {
       backgroundImage: {
-        glitter: "url('~/assets/bg-blue-glitter.webp')",
-        passport: "url('~/assets/passport-stamp.jpg')",
-        danrine1: "url('~/assets/danrine-1.jpeg')",
-        danrine2: "url('~/assets/danrine-2.jpeg')",
-        worldmap: "url('~/assets/world-map.png')",
+        glitter: "url('/bg-blue-glitter.webp')",
+        passport: "url('/passport-stamp.jpg')",
+        danrine1: "url('/danrine-1.jpeg')",
+        danrine2: "url('/danrine-2.jpeg')",
+        worldmap: "url('/world-map.png')",
       },
       aspectRatio: {
         auto: "auto",
