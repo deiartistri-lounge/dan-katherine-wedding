@@ -43,8 +43,9 @@ sound.on("end", function () {
   <section
     id="danrine-cover"
     ref="target"
-    class="relative flex min-h-screen p-3 bg-testtt"
+    class="relative flex min-h-screen p-3"
   >
+    <div class="z-0 parallax-img1"></div>
     <div
       class="flex flex-col items-center justify-center w-full min-h-screen text-center text-primary-50"
     >
@@ -206,5 +207,22 @@ sound.on("end", function () {
   background-size: cover;
   -webkit-background-size: cover;
   -prefix-background-size: cover;
+}
+
+div.parallax-img* {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  top: 0;
+}
+
+div.parallax-img1 {
+  background: url("/danrine-1.jpeg") no-repeat center center fixed;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  bottom: 0;
+  top: 0;
 }
 </style>

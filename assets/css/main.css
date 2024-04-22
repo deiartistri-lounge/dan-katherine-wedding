@@ -19,13 +19,13 @@ html {
 }
 
 @supports (-webkit-touch-callout: none) {
-  .selector {
+  .bg-fixed {
     background-attachment: scroll;
   }
 }
 
 @supports not (-webkit-touch-callout: none) {
-  .selector {
+  .bg-fixed {
     background-attachment: fixed;
   }
 }
