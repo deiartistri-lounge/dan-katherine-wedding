@@ -1,203 +1,160 @@
 <script setup lang="ts"></script>
 <template>
-  <div>
-    <div class="sticky parallax-image1 page-title"></div>
-    <div class="section-header page-title">
-      <div class="header-text">
-        <h1>Full Parallax for iOS</h1>
-        <h3>Displays properly on iPhone and iPad</h3>
+  <div class="flex flex-col">
+    <!-- Countdown goes here -->
+    <CountdownSection />
+
+    <section ref="target" class="relative flex flex-col min-h-screen p-3">
+      <div class="sticky parallax-image1"></div>
+
+      <div
+        class="flex flex-col items-center justify-center w-full min-h-screen text-center text-primary-50"
+      >
+        <div
+          class="flex flex-col items-center justify-center gap-6 mt-6 lg:p-6 lg:mt-0"
+        >
+          <div
+            class="text-2xl text-white lg:text-6xl drop-shadow font-cursive"
+            v-motion
+            :initial="{
+              opacity: 0,
+              scale: 0,
+            }"
+            :visibleOnce="{
+              opacity: 1,
+              scale: 0.9,
+              transition: {
+                type: 'spring',
+                stiffness: '100',
+                delay: 500,
+              },
+            }"
+          >
+            <div>Welcome aboard!</div>
+            <div>
+              Prepare for an adventure of a lifetime as we embark on the journey
+              of love together.
+            </div>
+          </div>
+          <div
+            class="text-2xl text-white lg:text-6xl drop-shadow font-cursive"
+            v-motion
+            :initial="{
+              opacity: 0,
+              scale: 0,
+            }"
+            :visibleOnce="{
+              opacity: 1,
+              scale: 0.9,
+              transition: {
+                type: 'spring',
+                stiffness: '100',
+                delay: 800,
+              },
+            }"
+          >
+            Get ready to stamp your passport and join us as we,
+          </div>
+          <div class="h-[50px] lg:h-[200px] p-6"></div>
+
+          <div
+            class="flex flex-col mt-2 text-[2.60rem] font-bold lg:gap-3 lg:-mt-10 text-amber-50 drop-shadow lg:text-7xl euphoria-script-regular lg:flex-row"
+            v-motion
+            :initial="{
+              opacity: 0,
+              scale: 0,
+            }"
+            :visibleOnce="{
+              opacity: 1,
+              scale: 0.9,
+              transition: {
+                type: 'spring',
+                stiffness: '100',
+                delay: 1200,
+              },
+            }"
+          >
+            Dan Joseph & Katherine
+          </div>
+
+          <div
+            class="-mt-6 text-2xl lg:text-6xl drop-shadow font-cursive lg:mt-0"
+            v-motion
+            :initial="{
+              opacity: 0,
+              scale: 0,
+            }"
+            :visibleOnce="{
+              opacity: 1,
+              scale: 0.9,
+              transition: {
+                type: 'spring',
+                stiffness: '100',
+                delay: 1500,
+              },
+            }"
+          >
+            exchange vows and celebrate this beautiful voyage on
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col items-center justify-center w-full text-2xl uppercase lg:mt-6 lg:text-3xl drop-shadow font-name2"
+          v-motion
+          :initial="{
+            opacity: 0,
+            scale: 0,
+          }"
+          :visibleOnce="{
+            opacity: 1,
+            scale: 0.9,
+            transition: {
+              type: 'spring',
+              stiffness: '100',
+              delay: 2000,
+            },
+          }"
+        >
+          <div class="lg:pl-0">June</div>
+          <div class="flex items-center justify-between w-[400px] lg:w-[450px]">
+            <div class="w-1/2 p-2 border-amber-400 border-y-2">Saturday</div>
+            <div class="p-2 mb-1 text-6xl font-bold text-amber-500">22</div>
+            <div class="w-1/2 p-2 border-amber-400 border-y-2">1:00PM</div>
+          </div>
+          <div class="lg:pl-0">2024</div>
+        </div>
+
+        <div
+          class="flex flex-col gap-2 mt-2 lg:mt-6"
+          v-motion
+          :initial="{
+            opacity: 0,
+            x: -100,
+          }"
+          :visibleOnce="{
+            opacity: 1,
+            x: 0,
+            transition: {
+              type: 'spring',
+              stiffness: '100',
+              delay: 2300,
+            },
+          }"
+        >
+          <div
+            class="text-3xl lg:text-4xl font-cursive drop-shadow text-amber-500"
+          >
+            Ceremony & Reception
+          </div>
+          <div class="uppercase text-md lg:text-2xl drop-shadow font-name2">
+            Don Leopoldo Sison Convention Center, Alaminos City, Pangasinan
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="section">
-      <p></p>
-      <h2>Is education residence conveying so so</h2>
+    </section>
 
-      <p>
-        Nor hence hoped her after other known defer his. For county now sister
-        engage had season better had waited. Occasional mrs interested far
-        expression acceptance. Day either mrs talent pulled men rather regret
-        admire but. Life ye sake it shed. Five lady he cold in meet up. Service
-        get met adapted matters offence for. Principles man any insipidity age
-        you simplicity understood. Do offering pleasure no ecstatic whatever on
-        mr directly.
-      </p>
-
-      <p>
-        Article evident arrived express highest men did boy. Mistress sensible
-        entirely am so. Quick can manor smart money hopes worth too. Comfort
-        produce husband boy her had hearing. Law others theirs passed but
-        wishes. You day real less till dear read. Considered use dispatched
-        melancholy sympathize discretion led. Oh feel if up to till like.
-      </p>
-
-      <p>
-        New the her nor case that lady paid read. Invitation friendship
-        travelling eat everything the out two. Shy you who scarcely expenses
-        debating hastened resolved. Always polite moment on is warmth spirit it
-        to hearts. Downs those still witty an balls so chief so. Moment an
-        little remain no up lively no. Way brought may off our regular country
-        towards adapted cheered.
-      </p>
-
-      <p>
-        Contented get distrusts certainty nay are frankness concealed ham. On
-        unaffected resolution on considered of. No thought me husband or colonel
-        forming effects. End sitting shewing who saw besides son musical
-        adapted. Contrasted interested eat alteration pianoforte sympathize was.
-        He families believed if no elegance interest surprise an. It abode wrong
-        miles an so delay plate. She relation own put outlived may disposed.
-      </p>
-
-      <p>
-        Good draw knew bred ham busy his hour. Ask agreed answer rather joy
-        nature admire wisdom. Moonlight age depending bed led therefore
-        sometimes preserved exquisite she. An fail up so shot leaf wise in.
-        Minuter highest his arrived for put and. Hopes lived by rooms oh in no
-        death house. Contented direction september but end led excellent
-        ourselves may. Ferrars few arrival his offered not charmed you. Offered
-        anxious respect or he. On three thing chief years in money arise of.p
-      </p>
-    </div>
-    <div class="sticky parallax-image2"></div>
-    <div class="section-header">
-      <div class="header-text">
-        <h2>USES POSITION:STICKY</h2>
-        <h3>on images which are hidden behind the solid panels</h3>
-      </div>
-    </div>
-    <div class="section dark">
-      <h2>By spite about do of do allow blush</h2>
-
-      <p>
-        Unpleasant nor diminution excellence apartments imprudence the met new.
-        Draw part them he an to he roof only. Music leave say doors him. Tore
-        bred form if sigh case as do. Staying he no looking if do opinion.
-        Sentiments way understood end partiality and his.
-      </p>
-
-      <p>
-        She literature discovered increasing how diminution understood. Though
-        and highly the enough county for man. Of it up he still court alone
-        widow seems. Suspected he remainder rapturous my sweetness. All vanity
-        regard sudden nor simple can. World mrs and vexed china since after
-        often.
-      </p>
-
-      <p>
-        We diminution preference thoroughly if. Joy deal pain view much her
-        time. Led young gay would now state. Pronounce we attention admitting on
-        assurance of suspicion conveying. That his west quit had met till. Of
-        advantage he attending household at do perceived. Middleton in objection
-        discovery as agreeable. Edward thrown dining so he my around to.
-      </p>
-
-      <p>
-        On no twenty spring of in esteem spirit likely estate. Continue new you
-        declared differed learning bringing honoured. At mean mind so upon they
-        rent am walk. Shortly am waiting inhabit smiling he chiefly of in. Lain
-        tore time gone him his dear sure. Fat decisively estimating affronting
-        assistance not. Resolve pursuit regular so calling me. West he plan girl
-        been my then up no.
-      </p>
-
-      <p>
-        Put all speaking her delicate recurred possible. Set indulgence
-        inquietude discretion insensible bed why announcing. Middleton fat two
-        satisfied additions. So continued he or commanded household smallness
-        delivered. Door poor on do walk in half. Roof his head the what.
-      </p>
-    </div>
-    <div class="sticky parallax-image3"></div>
-    <div class="section-header">
-      <div class="header-text">
-        <h2>Works with iOS devices</h2>
-        <h3>iPad and iPhone</h3>
-      </div>
-    </div>
-    <div class="section">
-      <h2>By spite about do of do allow blush</h2>
-
-      <p>
-        Unpleasant nor diminution excellence apartments imprudence the met new.
-        Draw part them he an to he roof only. Music leave say doors him. Tore
-        bred form if sigh case as do. Staying he no looking if do opinion.
-        Sentiments way understood end partiality and his.
-      </p>
-
-      <p>
-        She literature discovered increasing how diminution understood. Though
-        and highly the enough county for man. Of it up he still court alone
-        widow seems. Suspected he remainder rapturous my sweetness. All vanity
-        regard sudden nor simple can. World mrs and vexed china since after
-        often.
-      </p>
-
-      <p>
-        We diminution preference thoroughly if. Joy deal pain view much her
-        time. Led young gay would now state. Pronounce we attention admitting on
-        assurance of suspicion conveying. That his west quit had met till. Of
-        advantage he attending household at do perceived. Middleton in objection
-        discovery as agreeable. Edward thrown dining so he my around to.
-      </p>
-
-      <p>
-        On no twenty spring of in esteem spirit likely estate. Continue new you
-        declared differed learning bringing honoured. At mean mind so upon they
-        rent am walk. Shortly am waiting inhabit smiling he chiefly of in. Lain
-        tore time gone him his dear sure. Fat decisively estimating affronting
-        assistance not. Resolve pursuit regular so calling me. West he plan girl
-        been my then up no.
-      </p>
-
-      <p>
-        Put all speaking her delicate recurred possible. Set indulgence
-        inquietude discretion insensible bed why announcing. Middleton fat two
-        satisfied additions. So continued he or commanded household smallness
-        delivered. Door poor on do walk in half. Roof his head the what.
-      </p>
-    </div>
-    <div class="sticky parallax-image4"></div>
-    <div class="section-header">
-      <div class="header-text">
-        <h2>Credits</h2>
-        <h3>Random Mountain Images: Unsplash</h3>
-      </div>
-    </div>
-    <div class="section dark">
-      <h2>Refresh the page to see a bunch of new images</h2>
-
-      <p>
-        Unpleasant nor diminution excellence apartments imprudence the met new.
-        Draw part them he an to he roof only. Music leave say doors him. Tore
-        bred form if sigh case as do. Staying he no looking if do opinion.
-        Sentiments way understood end partiality and his.
-      </p>
-
-      <p>
-        She literature discovered increasing how diminution understood. Though
-        and highly the enough county for man. Of it up he still court alone
-        widow seems. Suspected he remainder rapturous my sweetness. All vanity
-        regard sudden nor simple can. World mrs and vexed china since after
-        often.
-      </p>
-
-      <p>
-        We diminution preference thoroughly if. Joy deal pain view much her
-        time. Led young gay would now state. Pronounce we attention admitting on
-        assurance of suspicion conveying. That his west quit had met till. Of
-        advantage he attending household at do perceived. Middleton in objection
-        discovery as agreeable. Edward thrown dining so he my around to.
-      </p>
-
-      <p>
-        On no twenty spring of in esteem spirit likely estate. Continue new you
-        declared differed learning bringing honoured. At mean mind so upon they
-        rent am walk. Shortly am waiting inhabit smiling he chiefly of in. Lain
-        tore time gone him his dear sure. Fat decisively estimating affronting
-        assistance not. Resolve pursuit regular so calling me. West he plan girl
-        been my then up no.
-      </p>
-    </div>
+    <!-- Countdown goes here -->
+    <CountdownSection />
   </div>
 </template>
 <style scoped>
@@ -209,11 +166,8 @@
 
 html,
 body {
-  min-height: 300%;
+  min-height: 100%;
   width: 100%;
-  font-family: "Open sans", sans-serif;
-  font-size: 22px;
-  line-height: 44px;
   margin: 0;
   padding: 0;
   position: relative;
@@ -235,18 +189,6 @@ div.parallax-image1 {
     center center;
 }
 
-div.parallax-image2 {
-  background-image: url(/dan-katherine-wedding/danrine-1.jpeg);
-}
-
-div.parallax-image3 {
-  background-image: url(https://deiartistri-lounge.github.io/dan-katherine-wedding/danrine-1.jpeg);
-}
-
-div.parallax-image4 {
-  background-image: url(https://source.unsplash.com/random/2001x1201/?hills);
-}
-
 .sticky {
   margin-top: -100vh;
   width: 100vw;
@@ -258,45 +200,9 @@ div.parallax-image4 {
   z-index: 0;
 }
 
-div.section-header {
-  position: relative;
-  width: 100%;
-  height: 70vh;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
-  z-index: 2;
-}
-
-div.header-text {
-  height: auto;
-  padding: 0px 20px;
-  padding-left: calc(20vw - 70px);
-  margin-bottom: 40px;
-  color: white;
-  background: rgba(16, 32, 48, 0.5);
-}
-
-div.section {
-  position: relative;
-  background-color: white;
-  width: 100%;
-  min-height: 100vh;
-  padding: 3em calc(20vw - 70px);
-  z-index: 1;
-}
-
-div.section:last-child {
-  min-height: 50vh;
-  padding: 3em calc(20vw - 70px) 6em;
-}
-
-div.section.dark {
-  background-color: #102030;
-  color: white;
-}
-
-.page-title > div > h1 {
-  font-size: 80px;
+.euphoria-script-regular {
+  font-family: "Euphoria Script", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 </style>
