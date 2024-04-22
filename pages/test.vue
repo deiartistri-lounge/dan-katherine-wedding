@@ -229,17 +229,14 @@ div.parallax-image* {
 
 div.parallax-image1 {
   background-image: url(https://deiartistri-lounge.github.io/dan-katherine-wedding/danrine-1.jpeg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
 }
 
 div.parallax-image2 {
-  background-image: url(https://source.unsplash.com/random/2300x1201/?cliff);
+  background-image: url(/dan-katherine-wedding/danrine-1.jpeg);
 }
 
 div.parallax-image3 {
-  background-image: url(https://source.unsplash.com/random/2401x1200/?rocks);
+  background-image: url(https://deiartistri-lounge.github.io/dan-katherine-wedding/danrine-1.jpeg);
 }
 
 div.parallax-image4 {
