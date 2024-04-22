@@ -48,7 +48,7 @@ const weddingDate = "22 June 2024";
       <CoverSection :bride="bride" :groom="groom" :wedding-date="weddingDate" />
 
       <div
-        class="bg-primary-900 bg-fixed bg-center bg-cover h-[200px] w-full"
+        class="bg-primary-900 lg:bg-fixed bg-center bg-cover h-[200px] w-full"
       ></div>
 
       <!-- DanRine Cover Section -->

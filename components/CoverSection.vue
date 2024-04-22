@@ -17,7 +17,7 @@ const scrollToTarget = () => {
 
 <template>
   <section
-    class="relative flex flex-col items-center justify-center w-full min-h-screen overflow-hidden bg-fixed bg-center bg-cover bg-primary-900"
+    class="relative flex flex-col items-center justify-center w-full min-h-screen overflow-hidden lg:bg-fixed bg-center bg-cover bg-primary-900"
   >
     <div class="absolute flex items-center justify-center w-full h-full gap-3">
       <img
