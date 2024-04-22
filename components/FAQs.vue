@@ -4,7 +4,7 @@ import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/vue";
 </script>
 <template>
   <section
-    class="relative flex items-center justify-center lg:bg-fixed bg-center bg-cover bg-passport lg:px-10 bg-opacity-20"
+    class="relative flex items-center justify-center bg-center bg-cover lg:bg-fixed bg-passport lg:px-10 bg-opacity-20"
   >
     <div
       class="flex flex-col items-center justify-center w-full p-6 lg:max-w-screen-lg"
@@ -144,7 +144,7 @@ import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/vue";
             </DisclosureButton>
             <div v-auto-animate class="w-full">
               <DisclosurePanel class="p-6 lg:text-2xl font-passport">
-                Pleace check with us first. Unfortunately, we have a strict
+                Please check with us first. Unfortunately, we have a strict
                 guest list. Kindly inform us if your schedule cleared up, so we
                 can try to accommodate you. Should some seats free up, then
                 we'll let you know as soon as we can.
@@ -271,7 +271,7 @@ import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/vue";
                     of our lives as husband and wife.
                   </li>
                   <li>RSVP as early as your schedule is cleared.</li>
-                  <li>Dress approriate and follow our wedding motif.</li>
+                  <li>Dress appropriate and follow our wedding motif.</li>
                   <li>Be on time.</li>
                   <li>Follow seating arrangement in the reception.</li>
                   <li>Stay until the end of the program.</li>
