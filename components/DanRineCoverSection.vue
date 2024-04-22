@@ -46,7 +46,13 @@ sound.on("end", function () {
     class="relative flex min-h-screen p-3"
   >
     <div
-      class="absolute top-0 bottom-0 left-0 right-0 bg-fixed bg-center bg-cover bg-danrine1"
+      class="absolute top-0 bottom-0 left-0 right-0 bg-fixed bg-center bg-cover bg-danrine1 h-[100vh]"
+      style="
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      "
     ></div>
     <div
       class="flex flex-col items-center justify-center w-full min-h-screen text-center text-primary-50"
