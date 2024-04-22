@@ -3,6 +3,7 @@
   <section
     id="attire"
     class="relative flex items-center justify-center min-h-screen bg-fixed bg-center bg-cover lg:p-10 bg-passport bg-opacity-20"
+    style="background-attachment: fixed"
   >
     <div
       class="bg-primary-50 backdrop-blur-[2px] bg-opacity-20 p-6 lg:shadow-2xl lg:max-w-screen-lg w-full"
