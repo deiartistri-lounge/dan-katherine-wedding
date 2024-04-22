@@ -39,6 +39,7 @@ const listSponsors = ref([
 <template>
   <section
     class="relative flex justify-center bg-fixed bg-center lg:min-h-screen lg:bg-worldmap bg-passport lg:bg-cover bg-opacity-20 itemce"
+    style="background-attachment: fixed"
   >
     <div
       class="flex flex-col items-center justify-center w-full px-3 py-48 lg:max-w-screen-xl lg:py-72"

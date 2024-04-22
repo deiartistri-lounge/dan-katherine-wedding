@@ -44,6 +44,7 @@ sound.on("end", function () {
     id="danrine-cover"
     ref="target"
     class="relative flex min-h-screen p-3 bg-fixed bg-center bg-cover bg-danrine1"
+    style="background-attachment: fixed"
   >
     <div
       class="flex flex-col items-center justify-center w-full min-h-screen text-center text-primary-50"
