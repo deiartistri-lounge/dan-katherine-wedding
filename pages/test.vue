@@ -228,7 +228,7 @@ div.parallax-image* {
 }
 
 div.parallax-image1 {
-  background-image: url("https://deiartistri-lounge.github.io/dan-katherine-wedding/danrine-1.jpeg");
+  background-image: url(https://deiartistri-lounge.github.io/dan-katherine-wedding/danrine-1.jpeg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
