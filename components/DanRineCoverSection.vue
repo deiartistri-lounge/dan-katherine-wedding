@@ -46,8 +46,16 @@ sound.on("end", function () {
     class="relative flex min-h-screen p-3"
   >
     <div
-      class="absolute top-0 bottom-0 left-0 right-0 bg-fixed bg-center bg-cover bg-danrine1 h-[100vh]"
+      class="absolute"
       style="
+        background: url('/danrine-1.jpeg') no-repeat center center fixed;
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
