@@ -224,6 +224,9 @@ div.parallax-image* {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+  background-position: center;
+  -webkit-background-positione: center;
+  -moz-background-position: center;
   top: 0;
 }
 
