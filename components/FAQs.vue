@@ -5,7 +5,6 @@ import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/vue";
 <template>
   <section
     class="relative flex items-center justify-center bg-fixed bg-center bg-cover bg-passport lg:px-10 bg-opacity-20"
-    style="background-attachment: fixed"
   >
     <div
       class="flex flex-col items-center justify-center w-full p-6 lg:max-w-screen-lg"

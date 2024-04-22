@@ -38,7 +38,6 @@ onMounted(() => {
 <template>
   <section
     class="flex flex-col items-center justify-center gap-6 p-6 py-10 lg:p-10 h-[calc(50vh)] lg:h-[600px] drop-shadow bg-fixed bg-cover bg-center bg-primary-900 bg-glitter"
-    style="background-attachment: fixed"
   >
     <div
       class="text-2xl text-white uppercase font-name"

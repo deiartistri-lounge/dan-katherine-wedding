@@ -49,7 +49,6 @@ const weddingDate = "22 June 2024";
 
       <div
         class="bg-primary-900 bg-fixed bg-center bg-cover h-[200px] w-full"
-        style="background-attachment: fixed"
       ></div>
 
       <!-- DanRine Cover Section -->
