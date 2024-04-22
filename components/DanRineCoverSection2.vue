@@ -43,7 +43,7 @@ sound.on("end", function () {
   <section
     id="danrine-cover"
     ref="target"
-    class="relative flex min-h-screen p-3 bg-fixed bg-center bg-cover parallax bg-danrine1"
+    class="relative flex min-h-screen p-3 bg-fixed bg-center bg-cover bg-danrine1"
   >
     <div
       class="flex flex-col items-center justify-center w-full min-h-screen text-center text-primary-50"
@@ -196,22 +196,5 @@ sound.on("end", function () {
   font-family: "Euphoria Script", cursive;
   font-weight: 400;
   font-style: normal;
-}
-
-/* Fixed background for tablet and mobile */
-@media all and (max-width: 1024px) {
-  .parallax:after {
-    content: "";
-    width: 100%;
-    height: 100%;
-    background-position: inherit;
-    background-image: inherit;
-    background-size: inherit;
-    background-attachment: inherit;
-    background-repeat: inherit;
-    position: fixed;
-    top: 0;
-    z-index: -1;
-  }
 }
 </style>

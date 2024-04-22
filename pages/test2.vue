@@ -2,13 +2,17 @@
 <template>
   <div class="relative">
     <CoverSection />
-    <DanRineCoverSection2 />
-    <CountdownSection2 />
-    <WeddingDetailsSection2 />
-    <WeddingEntourageSection2 />
-    <AttireSection2 />
-    <GiftSection2 />
-    <FAQs2 />
+    <DanRineCoverSection2 class="parallax" />
+    <CountdownSection2 class="parallax" />
+    <WeddingDetailsSection2 class="parallax" />
+    <WeddingEntourageSection2 class="parallax" />
+    <AttireSection2 class="parallax" />
+    <GiftSection2 class="parallax" />
+    <SnapAndShareSection2 class="parallax" />
+    <WeddingVenue2 class="parallax" />
+    <FAQs2 class="parallax" />
+    <RSVPSection class="parallax" />
+    <FooterSection2 class="parallax" />
   </div>
 </template>
 <style scoped>
@@ -16,34 +20,20 @@
   background-image: url(https://deiartistri-lounge.github.io/dan-katherine-wedding/bg-blue-glitter.webp);
 }
 
-#div_background > div {
-  top: 0px;
-  left: 0px;
-  width: auto;
-  height: auto;
-  right: 0px;
-  bottom: 0px;
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  display: inline-block;
-
-  background-image: url(https://deiartistri-lounge.github.io/dan-katherine-wedding/bg-blue-glitter.webp);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-}
-
-#div_background {
-  display: inline-block;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  height: 100%;
-  width: 100%;
-  right: 0%;
-  bottom: 0%;
-  z-index: -1;
-  background-color: #a0b4c8;
+/* Fixed background for tablet and mobile */
+@media all and (max-width: 1024px) {
+  .parallax:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-position: inherit;
+    background-image: inherit;
+    background-size: inherit;
+    background-attachment: inherit;
+    background-repeat: inherit;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+  }
 }
 </style>

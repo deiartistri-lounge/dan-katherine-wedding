@@ -37,7 +37,7 @@ onMounted(() => {
 </script>
 <template>
   <section
-    class="flex flex-col items-center justify-center gap-6 p-6 py-10 lg:p-10 h-[calc(50vh)] lg:h-[600px] drop-shadow bg-primary-900 bg-glitter bg-cover bg-center bg-fixed parallax"
+    class="flex flex-col items-center justify-center gap-6 p-6 py-10 lg:p-10 h-[calc(50vh)] lg:h-[600px] drop-shadow bg-primary-900 bg-glitter bg-cover bg-center bg-fixed"
   >
     <div
       class="text-2xl text-white uppercase font-name"
@@ -174,7 +174,7 @@ onMounted(() => {
 <style scoped>
 /* Fixed background for tablet and mobile */
 @media all and (max-width: 1024px) {
-  .parallax:after {
+  .:after {
     content: "";
     width: 100%;
     height: 100%;

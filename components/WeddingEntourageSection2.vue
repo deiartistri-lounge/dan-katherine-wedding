@@ -38,7 +38,7 @@ const listSponsors = ref([
 </script>
 <template>
   <section
-    class="relative flex items-center justify-center bg-fixed bg-center bg-cover lg:min-h-screen bg-opacity-20 parallax bg-passport"
+    class="relative flex items-center justify-center bg-fixed bg-center bg-cover lg:min-h-screen bg-opacity-20 bg-passport"
   >
     <div
       class="flex flex-col items-center justify-center w-full px-3 py-48 lg:max-w-screen-xl lg:py-72"
@@ -469,7 +469,7 @@ const listSponsors = ref([
 <style scoped>
 /* Fixed background for tablet and mobile */
 @media all and (max-width: 1024px) {
-  .parallax:after {
+  .:after {
     content: "";
     width: 100%;
     height: 100%;
