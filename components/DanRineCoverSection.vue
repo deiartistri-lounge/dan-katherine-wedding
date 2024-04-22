@@ -43,24 +43,8 @@ sound.on("end", function () {
   <section
     id="danrine-cover"
     ref="target"
-    class="relative flex min-h-screen p-3"
+    class="relative flex min-h-screen p-3 bg-testtt"
   >
-    <div
-      class="absolute bg-fixed bg-cover bg-danrine1"
-      style="
-        width: 100vw;
-        height: 100vh;
-        position: absolute;
-        top: 0;
-        right: 0;
-        left: 0;
-        bottom: 0;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-      "
-    ></div>
     <div
       class="flex flex-col items-center justify-center w-full min-h-screen text-center text-primary-50"
     >
@@ -212,5 +196,15 @@ sound.on("end", function () {
   font-family: "Euphoria Script", cursive;
   font-weight: 400;
   font-style: normal;
+}
+
+.bg-testtt {
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: url("/danrine-1.jpeg") no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -prefix-background-size: cover;
 }
 </style>
