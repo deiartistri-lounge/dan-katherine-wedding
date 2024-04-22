@@ -23,11 +23,11 @@ export default {
     },
     extend: {
       backgroundImage: {
-        glitter: "url('/bg-blue-glitter.webp')",
-        passport: "url('/passport-stamp.jpg')",
-        danrine1: "url('/danrine-1.jpeg')",
-        danrine2: "url('/danrine-2.jpeg')",
-        worldmap: "url('/world-map.png')",
+        glitter: "url('/dan-katherine-wedding/bg-blue-glitter.webp')",
+        passport: "url('/dan-katherine-wedding/passport-stamp.jpg')",
+        danrine1: "url('/dan-katherine-wedding/danrine-1.jpeg')",
+        danrine2: "url('/dan-katherine-wedding/danrine-2.jpeg')",
+        worldmap: "url('/dan-katherine-wedding/world-map.png')",
       },
       aspectRatio: {
         auto: "auto",
