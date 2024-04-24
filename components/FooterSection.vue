@@ -17,7 +17,7 @@ const scrollToTarget = () => {
 
 <template>
   <section
-    class="relative flex flex-col items-center justify-center w-full min-h-screen overflow-hidden lg:bg-fixed bg-center bg-cover bg-primary-900 bg-glitter"
+    class="relative flex flex-col items-center justify-center w-full min-h-screen overflow-hidden bg-center bg-cover lg:bg-fixed bg-primary-900 bg-glitter"
   >
     <div class="absolute flex items-center justify-center w-full h-full gap-3">
       <img
@@ -132,7 +132,7 @@ const scrollToTarget = () => {
       >
         <img
           src="/deiartistri-lounge-logo.png"
-          class="w-[60px] h-[60px] drop-shadow"
+          class="w-[100px] h-[100px] drop-shadow"
         />
       </a>
     </div>

@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 <template>
   <section
-    class="relative flex items-center justify-center lg:bg-fixed bg-center bg-cover bg-passport lg:p-10 bg-opacity-20"
+    class="relative flex items-center justify-center bg-center bg-cover lg:bg-fixed bg-passport lg:p-10 bg-opacity-20"
   >
     <div
       class="bg-primary-50 backdrop-blur-[2px] bg-opacity-20 p-6 lg:shadow-2xl lg:max-w-screen-lg w-full"
@@ -63,7 +63,7 @@
             moments using our official WEDDING HASHTAG
           </p>
           <p
-            class="my-3 text-[1.3rem] lg:text-3xl font-passport"
+            class="my-10 text-[1.3rem] lg:text-4xl font-passport"
             v-motion
             :initial="{
               opacity: 0,
@@ -86,6 +86,31 @@
             }"
           >
             <strong>#DANeverEndingLovewithKATH</strong>
+          </p>
+          <p
+            class="my-3 text-[1rem] lg:text-2xl font-passport"
+            v-motion
+            :initial="{
+              opacity: 0,
+              scale: 2,
+            }"
+            :visibleOnce="{
+              opacity: 1,
+              scale: 1,
+              transition: {
+                type: 'spring',
+                scale: {
+                  delay: 1200,
+                  duration: 1000,
+                },
+                opacity: {
+                  duration: 1000,
+                  delay: 1200,
+                },
+              },
+            }"
+          >
+            Please note that this will be an Adults-Only celebration.
           </p>
         </div>
       </div>
