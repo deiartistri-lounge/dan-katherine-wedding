@@ -87,31 +87,6 @@
           >
             <strong>#DANeverEndingLovewithKATH</strong>
           </p>
-          <p
-            class="my-3 text-[1rem] lg:text-2xl font-passport"
-            v-motion
-            :initial="{
-              opacity: 0,
-              scale: 2,
-            }"
-            :visibleOnce="{
-              opacity: 1,
-              scale: 1,
-              transition: {
-                type: 'spring',
-                scale: {
-                  delay: 1200,
-                  duration: 1000,
-                },
-                opacity: {
-                  duration: 1000,
-                  delay: 1200,
-                },
-              },
-            }"
-          >
-            Please note that this will be an Adults-Only celebration.
-          </p>
         </div>
       </div>
     </div>
