@@ -128,6 +128,7 @@ const listSponsors = ref([
           >
             <div class="list-sponsor-item-left">Mr. Danilo L. Salaya</div>
             <!-- <div class="list-sponsor-item-right">Mr. Richard R. Reynaldo</div> -->
+            <div class="list-sponsor-item-right">&nbsp;</div>
           </div>
 
           <div
@@ -192,7 +193,7 @@ const listSponsors = ref([
               },
             }"
           >
-            <div class="list-sponsor-item-left">Mr. Richard R. Reynaldo</div>
+            <!-- <div class="list-sponsor-item-left">Mr. Richard R. Reynaldo</div> -->
             <div class="list-sponsor-item-right">Ms. Josephine R. Reynaldo</div>
           </div>
         </div>
