@@ -22,7 +22,7 @@ const listSponsors = ref([
   { name1: "Mr. Rodrigo G. Ragodos", name2: "Mrs. Susan A. Weatherup" },
   { name1: "Mr. Richard C. Sembria", name2: "Mrs. Marilag T. Sembria" },
   { name1: "Mr. Mark S. Aherrera", name2: "Mrs. Florinda R. Murphy" },
-  { name1: "Mr. David S. Aherrera", name2: "Mrs. Remy R. Romanillos" },
+  { name1: "Mr. David S. Aherrera", name2: "Engr. Remy R. Romanillos" },
   { name1: "Mr. Alfred V. Vejar", name2: "Mrs. Delia M. Vejar" },
   { name1: "Mr. Bernardo M. Castillo", name2: "Mrs. Noemi S. Castillo" },
   { name1: "Mr. Allan O. Pantillano", name2: "Mrs. Jocelyn R. Pantillano" },
