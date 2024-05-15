@@ -17,7 +17,7 @@ const listSponsors = ref([
   { name1: "Mr. Samuel S. Aherrera", name2: "Ms. Violeta D. Aseron" },
   { name1: "Atty. Arturo J. Liquete", name2: "Mrs. Nancy P. Perez" },
   { name1: "Engr. Benjamin J. Liquete", name2: "Mrs. Evelyn S. Liquete" },
-  { name1: "Engr. Pascual O. Arzadon Jr.", name2: "Mrs. Bing I. Arzadon" },
+  { name1: "Mr. Pascual O. Arzadon Jr.", name2: "Mrs. Bing I. Arzadon" },
   { name1: "Capt. Domingo C. Ragudos", name2: "Mrs. Imelda M. Ragudos" },
   { name1: "Mr. Rodrigo G. Ragodos", name2: "Mrs. Susan A. Weatherup" },
   { name1: "Mr. Richard C. Sembria", name2: "Mrs. Marilag T. Sembria" },
