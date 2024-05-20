@@ -31,9 +31,9 @@ const listSponsors = ref([
   { name1: "Mr. Norberto D. Sollano Jr.", name2: "Mrs. Merlita J. Reynaldo" },
   { name1: "Mr. Romeo L. Cayetano Jr.", name2: "Mrs. Emelda S. Colarina" },
   { name1: "Mr. Joel R. Nerviza", name2: "Mrs. Elnor M. Nerviza" },
-  { name1: "Mr. Dan S. Aherrera", name2: "Mrs. Dina Grace A. Lacebal" },
+  { name1: "Mr. Daniel S. Aherrera", name2: "Mrs. Dina Grace A. Lacebal" },
   { name1: "Mr. Pedro C. Reynaldo", name2: "Mrs. Liza B. Hidalgo" },
-  { name1: "Mr. Wilmor R. Biag", name2: "Mrs. Annaliza A. Mcarthy" },
+  { name1: "Mr. Wilmor R. Biag", name2: "Mrs. AnnaLiza A. McCarthy" },
 ]);
 </script>
 <template>
