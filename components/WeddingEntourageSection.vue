@@ -341,6 +341,7 @@ const listSponsors = ref([
               <div class="">Mr. Michael L. Cabudlan</div>
               <div class="">Mr. Ramon B. Golondrina</div>
               <div class="">Mr. Randell I. Rabuya</div>
+              <div class="">Mr. Jelan Anrei Nerviza</div>
             </div>
             <div class="list-sponsor-item-right">
               <div class="font-semibold list-header">Bridesmaid</div>
